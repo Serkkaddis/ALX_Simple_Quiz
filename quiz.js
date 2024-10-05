@@ -6,6 +6,8 @@ function checkAnswer() {
         return; 
     }
     
+    const userValue = userAnswer.value;
+
     if (userAnswer === correctAnswer) {
         document.getElementById("feedback").textContent = "Correct! Well done.";
     } else {
